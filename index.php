@@ -21,20 +21,21 @@
 
         <p class="slogan">Your dependable partner</p>
 
+        <div class="image-speech-wrap">
+          <div class="image">
+            <img src="assets/img/churchill-dog.png" class="image__img" width="318" height="429" alt="The Churchill Dog in a decorative golden photo frame.">
+          </div>
+          <div class="speech">
+            <p class="speech__text">...Oh Yes!</p>
+          </div>
+        </div>
+
         <ul class="checklist">
           <li class="checklist__item">At Churchill we believe in being there for you.</li>
           <li class="checklist__item">It's important that we live this through our policies.</li>
           <li class="checklist__item">We believe every little interaction matters.</li>
           <li class="checklist__item">Churchill spends his time making sure you're happy. Oh Yes!</li>
         </ul>
-
-        <div class="image">
-          <img src="assets/img/churchill-dog.png" class="image__img" width="318" height="429" alt="The Churchill Dog in a decorative golden photo frame.">
-        </div>
-
-        <div class="speech-bubble">
-          <p class="speech-bubble__text">...Oh Yes!</p>
-        </div>
 
       </div><!-- component ends -->
 

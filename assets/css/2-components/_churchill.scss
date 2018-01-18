@@ -1,0 +1,105 @@
+.component {
+
+  & > * {
+    margin-bottom: 0;
+  }
+
+  & * + * {
+    margin-top: 3rem;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 59.125rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+.slogan {
+  color: $colourTextBold;
+  font-family: $fontHeading;
+  font-size: 3rem;
+  max-width: 7em;
+  text-align: center;
+}
+
+.checklist {
+  list-style-type: none;
+  padding-left: 0;
+  max-width: 21.125em;
+}
+
+.checklist__item {
+
+  & + * {
+    margin-top: 2em;
+  }
+
+  background-image: url('../img/icons/tick.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 3em;
+  min-height: 2.25em;
+}
+
+.image-speech-wrap {
+  display: flex;
+  align-items: center;
+
+  & * + * {
+    margin-top: 0;
+  }
+}
+
+.image {
+  flex-basis: 50%;
+}
+
+.image__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.speech {
+  flex-basis: 50%;
+  margin-left: 3rem;
+  background-color: #bde5ff;
+  padding: 1em .5em;
+  border-radius: 1em;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 2em solid transparent;
+    border-top: 1em solid #bde5ff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 20px;
+    right: 100%;
+    top: 30%;
+  }
+}
+
+.speech__text {
+  font-family: $fontHeading;
+  font-size: calc(2rem + 3vw);
+  margin: 0;
+  color: $colourTextBold;
+  text-align: center;
+}
+
+@media screen and (min-width: 56.25em) {
+
+  .component {
+    flex-direction: row;
+  }
+
+  .image-speech-wrap {
+    order: 2;
+  }
+
+}
