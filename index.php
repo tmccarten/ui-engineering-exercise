@@ -19,7 +19,6 @@
 
       <div class="component">
 
-
         <div class="image-speech-wrap">
           <div class="image">
             <img src="assets/img/churchill-dog.png" class="image__img" width="318" height="429" alt="The Churchill Dog in a decorative golden photo frame.">

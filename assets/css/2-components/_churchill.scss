@@ -1,11 +1,7 @@
 .component {
 
-  & > * {
-    margin-bottom: 0;
-  }
-
   & * + * {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   display: flex;
@@ -15,6 +11,7 @@
   padding: 2rem 1rem;
   margin: 0 auto;
   background-color: #f5f5f5;
+  box-shadow: 0 0.5em 0.5em -0.5em #676767;
 }
 
 .slogan-checklist-wrap {
@@ -28,6 +25,7 @@
   font-family: $fontHeading;
   font-size: 2.3125rem;
   text-align: center;
+  margin: 0;
 }
 
 .checklist {
@@ -52,10 +50,6 @@
 .image-speech-wrap {
   display: flex;
   align-items: center;
-
-  & * + * {
-    margin-top: 0;
-  }
 }
 
 .image {
@@ -81,7 +75,7 @@
     width: 0;
     height: 0;
     border-left: 2em solid transparent;
-    border-top: 1em solid #bde5ff;
+    border-top: 1.5em solid #bde5ff;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 20px;
     right: 100%;
@@ -136,6 +130,7 @@
   .speech {
     flex-basis: 75%;
     margin-left: 3rem;
+    margin-top: 0;
   }
 
   .speech__text {

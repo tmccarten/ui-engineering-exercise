@@ -9,8 +9,9 @@ html {
 body {
   font-family: $fontBody;
   color: $colourTextBody;
-}
+  padding: .5rem;
 
-main {
-  //margin: 0 auto;
+  @media screen and (min-width: $mqwide) {
+    padding: 1rem;
+  }
 }
