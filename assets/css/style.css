@@ -178,9 +178,10 @@ body {
 		display: block;
 	}
 	.speech {
-		-ms-flex-preferred-size: 75%;
-		    flex-basis: 75%;
+		-ms-flex-preferred-size: auto;
+		    flex-basis: auto;
 		margin-left: 3rem;
+		min-width: 15em;
 	}
 	.speech__text {
 		font-size: 3rem;

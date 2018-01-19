@@ -129,8 +129,9 @@
   }
 
   .speech {
-    flex-basis: 75%;
+    flex-basis: auto;
     margin-left: 3rem;
+    min-width: 15em;
   }
 
   .speech__text {
