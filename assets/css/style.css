@@ -5,9 +5,19 @@
 	font-style: normal;
 }
 
+html {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	        box-sizing: inherit;
+}
+
 body {
 	font-family: Arial, Tahoma, sans-serif;
-	color: #123d4d;
+	color: #054e60;
 }
 
 .component {
@@ -138,27 +148,52 @@ body {
 	}
 }
 
-@media screen and (min-width: 56.25em) {
+@media screen and (min-width: 54.375em) {
 	.component {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		    -ms-flex-direction: row;
 		        flex-direction: row;
+		padding: 1.21875rem 1.437rem;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		min-height: 29.25rem;
 	}
 	.image-speech-wrap {
 		-webkit-box-ordinal-group: 3;
 		    -ms-flex-order: 2;
 		        order: 2;
+		width: 100%;
+	}
+	.image {
+		width: 100%;
+		-ms-flex-preferred-size: auto;
+		    flex-basis: auto;
+	}
+	.image__img {
+		display: block;
 	}
 	.speech {
-		padding: 1.5em .5em;
+		-ms-flex-preferred-size: 75%;
+		    flex-basis: 75%;
+		margin-left: 3rem;
 	}
 	.speech__text {
 		font-size: 3rem;
+		padding: .5em .25em;
+	}
+	.slogan-checklist-wrap {
+		width: 27.125rem;
+		margin-top: 0;
 	}
 	.slogan {
 		max-width: none;
 		margin: 0;
+		padding: 0;
+	}
+	.checklist {
+		max-width: 16em;
 	}
 }
 

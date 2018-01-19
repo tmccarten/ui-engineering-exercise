@@ -110,27 +110,52 @@
 
 }
 
-@media screen and (min-width: 56.25em) {
+@media screen and (min-width: $mqwide) {
 
   .component {
     flex-direction: row;
+    padding: 1.21875rem 1.437rem;
+    justify-content: space-between;
+    min-height: 29.25rem;
   }
 
   .image-speech-wrap {
     order: 2;
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    flex-basis: auto;
+  }
+
+  .image__img {
+    display: block;
   }
 
   .speech {
-    padding: 1.5em .5em;
+    flex-basis: 75%;
+    margin-left: 3rem;
   }
 
   .speech__text {
     font-size: 3rem;
+    padding: .5em .25em;
+  }
+
+  .slogan-checklist-wrap {
+    width: 27.125rem;
+    margin-top: 0;
   }
 
   .slogan {
     max-width: none;
     margin: 0;
+    padding: 0;
+  }
+
+  .checklist {
+    max-width: 16em;
   }
 
 }
