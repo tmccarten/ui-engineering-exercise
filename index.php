@@ -19,7 +19,6 @@
 
       <div class="component">
 
-        <p class="slogan">Your dependable partner</p>
 
         <div class="image-speech-wrap">
           <div class="image">
@@ -30,12 +29,16 @@
           </div>
         </div>
 
-        <ul class="checklist">
-          <li class="checklist__item">At Churchill we believe in being there for you.</li>
-          <li class="checklist__item">It's important that we live this through our policies.</li>
-          <li class="checklist__item">We believe every little interaction matters.</li>
-          <li class="checklist__item">Churchill spends his time making sure you're happy. Oh Yes!</li>
-        </ul>
+        <div class="slogan-checklist-wrap">
+          <p class="slogan">Your dependable partner</p>
+
+          <ul class="checklist">
+            <li class="checklist__item">At Churchill we believe in being there for you.</li>
+            <li class="checklist__item">It's important that we live this through our policies.</li>
+            <li class="checklist__item">We believe every little interaction matters.</li>
+            <li class="checklist__item">Churchill spends his time making sure you're happy. Oh Yes!</li>
+          </ul>
+        </div>
 
       </div><!-- component ends -->
 
