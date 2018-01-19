@@ -116,6 +116,7 @@ body {
 	border-radius: 1em;
 	position: relative;
 	max-width: 16.25em;
+	margin-top: 0;
 }
 
 .speech::before {
@@ -180,7 +181,6 @@ body {
 		-ms-flex-preferred-size: 75%;
 		    flex-basis: 75%;
 		margin-left: 3rem;
-		margin-top: 0;
 	}
 	.speech__text {
 		font-size: 3rem;

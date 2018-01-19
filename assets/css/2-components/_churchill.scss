@@ -68,6 +68,7 @@
   border-radius: 1em;
   position: relative;
   max-width: 16.25em;
+  margin-top: 0;
 
   &::before {
     content: "";
@@ -130,7 +131,6 @@
   .speech {
     flex-basis: 75%;
     margin-left: 3rem;
-    margin-top: 0;
   }
 
   .speech__text {
